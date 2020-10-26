@@ -1,5 +1,6 @@
 const express = require('express');
 const app = express();
+const cors = require('cors');
 const bodyParser = require('body-parser');
 const port = 3000;
 
@@ -15,6 +16,7 @@ app.listen(port, () => {
 });
 
 // Middlewares
+app.use(cors());
 app.use(bodyParser.json());
 app.use('/posts', postsRoute);
 
@@ -31,5 +33,5 @@ mongoose.connect(
   process.env.DB_CONNECTION,
   { useNewUrlParser: true, useUnifiedTopology: true },
   () => {
-  console.log('connected to DB!');
-});
+    console.log('connected to DB!');
+  });
