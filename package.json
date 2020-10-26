@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/dylvaz/RESTfulapi/issues"
   },
-  "homepage": "https://github.com/dylvaz/RESTfulapi#readme"
+  "homepage": "https://github.com/dylvaz/RESTfulapi#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.6"
+  }
 }
