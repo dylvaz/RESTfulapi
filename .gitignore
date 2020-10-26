@@ -1,2 +1,5 @@
 # node modules should be ignored
 node_modules/
+
+# you dont need to see this :)
+.env
