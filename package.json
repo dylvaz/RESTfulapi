@@ -1,0 +1,19 @@
+{
+  "name": "restfulapi",
+  "version": "1.0.0",
+  "description": "RESTful api built with mongoDB, node.js, and express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dylvaz/RESTfulapi.git"
+  },
+  "author": "Dylan Vazquez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dylvaz/RESTfulapi/issues"
+  },
+  "homepage": "https://github.com/dylvaz/RESTfulapi#readme"
+}
